@@ -1,0 +1,372 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main1{
+    width: 19rem;
+    height: 35rem;
+    position: absolute;
+    left: 20rem;
+    top: 3rem;
+    padding-right: 2rem;
+    object-fit: cover;
+    #img2{
+        height: 30rem;
+        position: absolute;
+        left: 9.03rem;
+        margin-top: 1.7rem;
+    }
+    #img1{
+        position: absolute;
+        height: 36rem;
+        object-fit: cover;
+    }
+}
+#main2{
+    width: 22rem;
+    height: 35rem;
+    position: absolute;
+    left: 47rem;
+    top: 3rem;
+    #sub1{
+        border: 0.2px solid rgba(128, 128, 128, 0.477);
+        padding-top: 2rem;
+        height: 20.5rem;
+        img{
+            height: 5rem;
+            margin-left: 5rem;
+        }
+        input{
+            border: 0.2px solid rgba(128, 128, 128, 0.477);
+            width: 18rem;
+            margin-left: 1.7rem;
+            height: 2rem;
+            border-radius: 3px;
+            padding-left: 0.4rem;
+            margin-top: 0.3rem;
+        }
+        button{
+            height: 2.2rem;
+            width: 18.5rem;
+            margin-top: 1rem;
+            margin-left: 1.7rem;
+            color: white;
+            background-color: rgba(79, 177, 238, 0.944);
+            border: 0.1px solid white;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 1.9rem;
+            margin-bottom: 1.3rem;
+        }
+        #fb{
+            padding-left: 5.5rem;
+            text-decoration: none;
+            font-family: "Noto Sans", sans-serif;
+            i{
+                padding-right: 6px;
+                padding-bottom: 1rem;
+            }
+        }
+        #fr{
+            padding-left: 8rem;
+            text-decoration: none;
+            font-size: 12px;
+            font-family: "Noto Sans", sans-serif;
+        }
+    }
+    #sub2{
+        border: 0.2px solid rgba(128, 128, 128, 0.477);
+        margin-top: 10px;
+        width: 21.9rem;
+        height: 4rem;
+        p{
+            position: absolute;
+            left: 4.5rem;
+            top: 25rem;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 13px;
+        }
+        a{
+            position: absolute;
+            left: 13.5rem;
+            top: 25rem;
+            font-family: "Noto Sans", sans-serif;
+            text-decoration: none;
+            color: rgb(18, 87, 192);
+            font-size: 13px;
+        }
+    }
+    #get{
+        text-align: center;
+        margin-top: 1.4rem;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 13px;
+    }
+    #gp{
+        position: absolute;
+        left: 2.7rem;
+        top:29rem;
+        img{
+            height: 6rem;
+        }
+    }
+    #ms{
+        position: absolute;
+        left: 10rem;
+        top: 30.3rem;
+        img{
+            height: 3.5rem;
+        }
+    }
+}
+.footer{
+    position: absolute;
+    top:39rem;
+    left: 22rem;
+    a{
+        padding-right: 0.5rem;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+        color: gray;
+    }
+}
+#extras{
+    width: 25rem;
+    height: 1.5rem;
+    position: absolute;
+    top:41rem;
+    left: 41rem;
+    font-size: 13px;
+    font-family: "Noto Sans", sans-serif;
+    color: gray;
+    p{
+        position: absolute;
+        left: 7rem;
+    }
+    select{
+        border: 0.1px solid white;
+        font-size: 13px;
+        font-family: "Noto Sans", sans-serif;
+        color: gray;
+    }
+}
+.fhead{
+    border-bottom: 0.5px solid gray;
+    height: 2.7rem;
+    img{
+        margin-left: 18rem;
+    }
+}
+.fbody{
+    border: 1px solid gray;
+    height: 30rem;
+    width:24.8rem;
+    position: absolute;
+    left: 35rem;
+    top: 6rem;
+    img{
+        margin-top: 1rem;
+        margin-left: 10rem;
+        filter: contrast(5px);
+    }
+    h3{
+        margin-top: 3px;
+        margin-left: 7.9rem;
+        font-size: 16px;
+        font-family: "Noto Sans", sans-serif;
+    }
+    p{
+        margin-left: 3.4rem;
+        margin-top: 5px;
+        font-size: 13px;
+        font-family: "Noto Sans", sans-serif;
+        span{
+            margin-left: 0.5rem;
+        }
+    }
+    input{
+        width: 18.1rem;
+        height: 1.7rem;
+        margin-left: 3.3rem;
+        margin-top: 0.7rem;
+        padding-left: 6px;
+        border-color: rgba(128, 128, 128, 0.263);
+        border-radius: 4px;
+    }
+    #send{
+        width: 18.5rem;
+        height: 1.6rem;
+        margin-left: 3.3rem;
+        margin-bottom: 0.7rem;
+        margin-top: 0.7rem;
+        border-color: rgba(128, 128, 128, 0.263);
+        border-radius: 6px;
+        background-color: rgb(102, 166, 236);
+        color: white;
+        opacity: 0.7;
+    }
+    a{
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Noto Sans", sans-serif;
+        margin-left: 8rem;
+    }
+    #line{
+        margin-top: 1.3rem;
+        margin-left:3.2rem;
+        margin-bottom: 1.2rem;
+    }
+    #create{
+        font-weight: bold;
+        font-size: 14px;
+        margin-left:8.3rem;
+    }
+    #back1{
+        position: absolute;
+        left: 0px;
+        width: 24.8rem;
+        height: 3rem;
+        margin-top: 5rem;
+        background-color: whitesmoke;
+        border-top: 1px solid gray;
+        border-left: 0.5px solid white;
+        border-right: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+        font-size: 13px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: bold;
+    }
+}
+#bsign{
+    height: 47rem;
+    width: 24rem;
+    margin-top: 1.5rem;
+    margin-left: 35.5rem;
+    img{
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+    #bsign1{
+        border: 0.5px solid rgba(128, 128, 128, 0.523);
+        height: 35rem;
+        width: 22.8rem;
+        padding-left: 1.1rem;
+    }
+    #btop{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 13px;
+        color: gray;
+        font-weight:600;
+        margin-left: 4.2rem;
+        span{
+            margin-left: 3rem;
+        }
+    }
+    a{
+        button{
+            height: 2rem;
+            width: 14.5rem;
+            margin-left: 3.5rem;
+            margin-top: 1rem;
+            background-color: rgb(42, 149, 216);
+            font-family: "Noto Sans", sans-serif;
+            font-size: 13px;
+            color: white;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+        i{
+            padding-right: 5px;
+        }
+    }
+    #dash{
+        margin-left: 3.6rem;
+        sub{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 12px;
+            font-weight:600;
+            color: gray;
+        }
+    }
+    .inputblock{
+        width: 13.5rem;
+        margin-left: 3.5rem;
+        margin-bottom: 8px;
+        height: 2rem;
+        padding-left: 10px;
+        border:0.5px solid gray;
+        border-radius: 5px;
+    }
+    #i1{
+        margin-top: 1rem;
+    }
+    .dash2{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 11px;
+        margin-left: 3rem;
+        a{
+            text-decoration: none;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+        }
+    }
+    #dash2{
+        margin-top: 1rem;
+    }
+    #get{
+        margin-left: 9.5rem;
+        margin-top: 1rem;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 14px;
+    }
+    #gp{
+        position: absolute;
+        left: 34rem;
+        top: 42.5rem;
+    }
+    #ms{
+        position: absolute;
+        left: 41rem;
+        top: 43.6rem;
+    }
+}
+#fsign,.fsign{
+    margin-top: 11rem;
+}
+#signupbutton{
+        width: 16rem;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+        height: 2rem;
+        border:0.5px solid white;
+        border-radius: 8px;
+        background-color: rgb(42, 149, 216);
+        font-family: "Noto Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+}
+#loginback{
+    border: 0.5px solid rgba(128, 128, 128, 0.523);
+    height: 4rem;
+    width: 22.8rem;
+    padding-left: 1.1rem;
+    margin-top: 1rem;
+    p{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 14px;
+        margin-left: 5.5rem;
+        margin-top: 1.5rem;
+        a{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            color: rgb(42, 149, 216);
+        }
+    }
+}
+
